@@ -1,0 +1,152 @@
+:root {
+  --primary-text-color: #303030;
+  --secondary-text-color: #555555;
+  --tetriary-text-color: #9da4bd;
+  --accent-color: #ff6c00;
+  --primary-white-color: #fff;
+  --pre-title-color: rgba(157, 164, 189, 0.6);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: var(--primary-white-color);
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: var(--accent-color);
+}
+
+.pre-title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.title {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+.description {
+  font-size: 18px;
+  line-height: 1.67;
+}
+/* header styles*/
+
+.header,
+.hero {
+  background-color: rgb(117, 104, 104);
+  color: var(--primary-white-color);
+}
+
+.header-link,
+.header-contact {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: inherit;
+}
+.header-link:hover,
+.header-link:focus,
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+/* hero section styles */
+.hero-sidebar-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+
+  color: var(--primary-text-color);
+}
+
+.hero-sidebar-link:hover,
+.hero-sidebar-link:focus {
+  color: var(--accent-color);
+}
+.hero-pre-title {
+  color: var(--pre-title-color);
+}
+.hero-title {
+  font-size: 72px;
+  line-height: 1.2;
+}
+.hero-description {
+  color: var(--tetriary-text-color);
+}
+
+/* about section styles */
+.about-description {
+  color: var(--secondary-text-color);
+}
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+
+  color: var(--secondary-text-color);
+}
+.about-button {
+  color: var(--primary-text-color);
+}
