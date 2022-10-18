@@ -33,6 +33,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   letter-spacing: 0.02em;
+  background-color: #a58f8f;
 }
 
 .visually-hidden {
@@ -54,6 +55,10 @@ body {
 
 .link {
   text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
 }
 
 .btn {
@@ -90,13 +95,6 @@ body {
   line-height: 1.67;
 }
 /* header styles*/
-
-.header,
-.hero {
-  background-color: rgb(117, 104, 104);
-  color: var(--primary-white-color);
-}
-
 .header-link,
 .header-contact {
   font-weight: 600;
@@ -105,12 +103,12 @@ body {
   letter-spacing: 0.1em;
   color: inherit;
 }
-.header-link:hover,
+/* .header-link:hover,
 .header-link:focus,
 .header-contact:hover,
 .header-contact:focus {
   color: var(--accent-color);
-}
+} */
 
 /* hero section styles */
 .hero-sidebar-link {
@@ -122,16 +120,17 @@ body {
   color: var(--primary-text-color);
 }
 
-.hero-sidebar-link:hover,
+/* .hero-sidebar-link:hover,
 .hero-sidebar-link:focus {
   color: var(--accent-color);
-}
+} */
 .hero-pre-title {
   color: var(--pre-title-color);
 }
 .hero-title {
   font-size: 72px;
   line-height: 1.2;
+  color: var(--primary-white-color);
 }
 .hero-description {
   color: var(--tetriary-text-color);
@@ -148,5 +147,100 @@ body {
   color: var(--secondary-text-color);
 }
 .about-button {
+  color: var(--primary-text-color);
+}
+
+/* prices section styles */
+.prices-pre-title {
+  color: var(--pre-title-color);
+}
+.prices-title {
+  color: var(--primary-white-color);
+}
+.prices-item-text {
+  color: var(--tetriary-text-color);
+}
+.prices-button {
+  color: var(--primary-white-color);
+}
+
+/* benefits section styles */
+
+.benefits-item span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.4;
+  /* text-align: center; */
+  letter-spacing: 0.05em;
+}
+.benefits-item sup {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.2;
+  /* text-align: center; */
+  color: var(--accent-color);
+}
+.benefits-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
+  /* text-align: center; */
+}
+
+/* barbers section styles */
+
+.barbers-name {
+  font-size: 18px;
+  line-height: 1.4;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+}
+.barbers-sub-name {
+  font-size: 14px;
+  line-height: 1.4;
+  /* text-align: center; */
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+/* .barbers-media-link:hover,
+.barbers-media-link:focus {
+  color: var(--accent-color);
+} */
+
+/* contacts section styles */
+.booking-title {
+  color: var(--primary-white-color);
+}
+.contacts-title {
+  color: var(--primary-white-color);
+}
+.contacts-link {
+  font-size: 18px;
+  line-height: 1.67;
+  font-style: normal;
+  color: var(--tetriary-text-color);
+}
+.contacts-link[href*='http'] {
+  font-weight: 700;
+}
+.contacts-link[href*='mailto'] {
+  text-decoration: underline;
+}
+
+.contacts-pre-title {
+  color: var(--primary-white-color);
+}
+.contacts-description {
+  color: var(--tetriary-text-color);
+}
+
+/* footer styles */
+.footer-pre-title {
+  color: var(--tetriary-text-color);
+}
+.footer-sidebar-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.4;
   color: var(--primary-text-color);
 }
