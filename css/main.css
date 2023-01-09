@@ -840,7 +840,7 @@ img {
 }
 
 .prices {
-  background-image: url(../../images/prices/prices_bg_480.png);
+  background-image: url(../images/prices/prices_bg_480.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -849,29 +849,29 @@ img {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .prices {
-    background-image: url("../../images/prices/prices_bg_960.png");
+    background-image: url("../images/prices/prices_bg_960.png");
   }
 }
 @media (min-width: 690px) {
   .prices {
     background-size: 768px;
-    background-image: url("../../images/prices/prices_bg_768.png");
+    background-image: url("../images/prices/prices_bg_768.png");
   }
 }
 @media (min-width: 690px) and (min-device-pixel-ratio: 2), (min-width: 690px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 690px) and (min-resolution: 192dpi), (min-width: 690px) and (min-resolution: 2dppx) {
   .prices {
-    background-image: url("../../images/prices/prices_bg_1536.png");
+    background-image: url("../images/prices/prices_bg_1536.png");
   }
 }
 @media (min-width: 1170px) {
   .prices {
     background-size: 1600px;
-    background-image: url("../../images/prices/prices_bg_1600.png");
+    background-image: url("../images/prices/prices_bg_1600.png");
   }
 }
 @media (min-width: 1170px) and (min-device-pixel-ratio: 2), (min-width: 1170px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1170px) and (min-resolution: 192dpi), (min-width: 1170px) and (min-resolution: 2dppx) {
   .prices {
-    background-image: url("../../images/prices/prices_bg_3200.png");
+    background-image: url("../images/prices/prices_bg_3200.png");
   }
 }
 .prices .container {
@@ -1260,6 +1260,7 @@ img {
 }
 
 .portfolio-list {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1337,14 +1338,14 @@ img {
 }
 
 .contacts {
-  background-image: url(../../images/contacts/contacts_bg_480.png);
+  background-image: url(../images/contacts/contacts_bg_480.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 84px;
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .contacts {
-    background-image: url("../../images/contacts/contacts_bg_960.png");
+    background-image: url("../images/contacts/contacts_bg_960.png");
   }
 }
 @media (min-width: 690px) {

@@ -28,14 +28,14 @@
   }
 }
 .contacts {
-  background-image: url(../../images/contacts/contacts_bg_480.png);
+  background-image: url(../images/contacts/contacts_bg_480.png);
   background-repeat: no-repeat;
   background-size: cover;
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    background-image: url('../../images/contacts/contacts_bg_960.png');
+    background-image: url('../images/contacts/contacts_bg_960.png');
   }
   @media (min-width: 690px) {
     background-image: url('../../images/contacts/contacts_bg_768.png');
