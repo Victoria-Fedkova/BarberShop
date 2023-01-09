@@ -1350,22 +1350,22 @@ img {
 }
 @media (min-width: 690px) {
   .contacts {
-    background-image: url("../../images/contacts/contacts_bg_768.png");
+    background-image: url("../images/contacts/contacts_bg_768.png");
   }
 }
 @media (min-width: 690px) and (min-device-pixel-ratio: 2), (min-width: 690px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 690px) and (min-resolution: 192dpi), (min-width: 690px) and (min-resolution: 2dppx) {
   .contacts {
-    background-image: url("../../images/contacts/contacts_bg_1536.png");
+    background-image: url("../images/contacts/contacts_bg_1536.png");
   }
 }
 @media (min-width: 1170px) {
   .contacts {
-    background-image: url("../../images/contacts/contacts_bg_d_768.png");
+    background-image: url("../images/contacts/contacts_bg_d_768.png");
   }
 }
 @media (min-width: 1170px) and (min-device-pixel-ratio: 2), (min-width: 1170px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1170px) and (min-resolution: 192dpi), (min-width: 1170px) and (min-resolution: 2dppx) {
   .contacts {
-    background-image: url("../../images/contacts/contacts_bg_d_1536.png");
+    background-image: url("../images/contacts/contacts_bg_d_1536.png");
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1169px) {

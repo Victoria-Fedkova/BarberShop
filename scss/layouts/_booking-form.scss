@@ -38,19 +38,19 @@
     background-image: url('../images/contacts/contacts_bg_960.png');
   }
   @media (min-width: 690px) {
-    background-image: url('../../images/contacts/contacts_bg_768.png');
+    background-image: url('../images/contacts/contacts_bg_768.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url('../../images/contacts/contacts_bg_1536.png');
+      background-image: url('../images/contacts/contacts_bg_1536.png');
     }
   }
   @media (min-width: 1170px) {
-    background-image: url('../../images/contacts/contacts_bg_d_768.png');
+    background-image: url('../images/contacts/contacts_bg_d_768.png');
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url('../../images/contacts/contacts_bg_d_1536.png');
+      background-image: url('../images/contacts/contacts_bg_d_1536.png');
     }
   }
   padding-top: 84px;
